@@ -67,6 +67,8 @@ collections:
                     name: "carousel"
                     widget: "relation"
                     collection: "carousels"
+                    searchFields: ["moduleIdentifier"]
+                    valueField: ["moduleIdentifier", "header", "template", "images"]
                   - label: "Spotlight"
                     name: "spotlight"
                     widget: object
