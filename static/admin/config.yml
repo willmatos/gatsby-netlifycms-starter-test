@@ -25,8 +25,9 @@ collections:
     label: "Carousels"
     folder: "src/content/modules/carousels"
     create: true
-    identifier_field: name
+    identifier_field: moduleIdentifier
     fields:
+      - {label: "Module Identifier", name: moduleIdentifier, widget: string}
       - {label: Header, name: header, widget: string, default: "Image Gallery"}
       - {label: Template, name: template, widget: string, default: "carousel.html"}
       - label: Images
